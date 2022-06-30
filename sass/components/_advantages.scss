@@ -1,0 +1,24 @@
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 94px;
+  list-style: none;
+  padding: 0 15px;
+
+  &advantages__item {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #f5f4fa;
+    border-radius: 4px;
+  }
+
+  &__icon {
+    width: 60px;
+    height: 60px;
+  }
+}

@@ -7,11 +7,11 @@
   margin: 0px;
   width: 270px;
 
-  .advantages-description:not(:last-child) {
+  &:not(:last-child) {
     margin-right: 28px;
   }
 
-  &_title {
+  &__title {
     width: 270px;
     height: 16px;
     font-family: "Roboto";
